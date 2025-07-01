@@ -51,8 +51,8 @@ function BlogList() {
             id={blog.id}
             image={blog.image}
             title={blog.title}
-            description={blog.description} // Corrected typo
-            category={blog.category} // Corrected typo
+            description={blog.description} 
+            category={blog.category}
           />
         ))}
       </div>
