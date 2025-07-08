@@ -25,7 +25,7 @@ function BlogItem({ image, title, description, category, id }) {
 
         {/* Category Badge */}
         <div className="flex justify-between items-center mt-4">
-          <span className="bg-gray-200 text-gray-800 px-3 py-1 text-sm rounded-full">
+          <span className="bg-gray-400 text-gray-500 px-3 py-1 text-sm rounded-full">
             {category}
           </span>
         </div>

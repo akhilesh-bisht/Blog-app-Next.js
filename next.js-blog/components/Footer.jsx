@@ -9,22 +9,22 @@ function Footer() {
           {/* Left Section: Logo and Social Media */}
           <div className="flex flex-col items-center sm:items-start">
             <Image
-              src="/path/to/your/logo.png" // Replace with your logo path
+              src="/path/to/your/logo.png" 
               alt="Logo"
               width={180}
               height={60}
             />
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="text-gray-400 hover:text-blue-500">
+              <a href="#" className="text-gray-400 hover:text-blue-200">
                 <FaFacebook size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-blue-500">
                 <FaTwitter size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-pink-500">
+              <a href="#" className="text-gray-400 hover:text-pink-700">
                 <FaInstagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-700">
+              <a href="#" className="text-gray-400 hover:text-blue-500">
                 <FaLinkedin size={20} />
               </a>
             </div>

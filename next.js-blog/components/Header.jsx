@@ -4,7 +4,7 @@ import { assets } from "@/Assets/assets";
 
 function Header() {
   return (
-    <header className="bg-gradient-to-r from-indigo-800 via-blue-700 to-blue-500 text-white p-6">
+    <header className="bg-gradient-to-r from-indigo-600 via-blue-400 to-blue-700 text-white p-6">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Blog Title with Logo */}
         <Link href="/">
@@ -18,7 +18,7 @@ function Header() {
         </Link>
 
         {/* Get Started Button */}
-        <button className="flex items-center gap-2 font-medium py-2 px-5 sm:py-3 sm:px-6 bg-yellow-500 hover:bg-yellow-400 text-black shadow-[7px_7px_0px_#000000] hover:scale-105 transition duration-300 ease-in-out">
+        <button className="flex items-center gap-2 font-medium py-2 px-5 sm:py-3 sm:px-6 bg-yellow-400 hover:bg-yellow-400 text-black shadow-[7px_7px_0px_#000000] hover:scale-105 transition duration-300 ease-in-out">
           Get Started
           <Image src={assets.arrow} alt="Get Started" width={16} height={16} />
         </button>
