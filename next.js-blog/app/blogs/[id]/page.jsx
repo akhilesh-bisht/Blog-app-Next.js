@@ -39,12 +39,12 @@ const Page = ({ params }) => {
           <img
             src={data.image.src}
             alt={data.title}
-            className="w-full h-82 object-cover rounded-lg shadow-md"
+            className="w-full h-82 object-cover rounded-lg shadow-lg"
             loading="lazy"
           />
 
           {/* Blog Title */}
-          <h1 className="text-4xl font-bold text-gray-900">{data.title}</h1>
+          <h1 className="text-4xl font-bold text-gray-700">{data.title}</h1>
 
           {/* Blog Description */}
           <p className="text-lg text-gray-600">{data.description}</p>
@@ -54,7 +54,7 @@ const Page = ({ params }) => {
             <img
               src={data.author_img.src}
               alt={data.author}
-              className="w-24 h-24 rounded-full border-2 border-gray-300"
+              className="w-24 h-24 rounded-full border-2 border-gray-500"
             />
             <div>
               <p className="text-xl font-semibold text-gray-900">{data.author}</p>
